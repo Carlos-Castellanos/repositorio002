@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mystyle.css">
+	<title>CSS </title>
+</head>
+<body>
+	<!--tag "sub" used. -->
+	<header id="Home">
+		<!-- Using inline style, because is only to this header-->
+		<h1>M<sub>Y</sub>B<sub>LOG</sub><sup>2022</sup></h1>
+		<!--an image is included (carlos.jpeg), which is stored in the folder "images". -->
+		<img src="images/carlos.jpeg" height="100" alt="my picture" />
+		<!--Include  Personal data, family and hobbies. -->
+	</header>
+	<main class="container">
+		<section id="Biography">
+			<h3>Biography</h3>
+			<br>
+			<!--ordered list. -->
+			<ol>
+				<li>
+					<h4>Me</h4>
+					<p class="my-p">I was born in <b> Mexicali Baja California</b>, but for a while I lived in Guadalajara Jalisco, I returned to Mexicali to study engineering, and currently I work as a <ins><b><i>teacher</i></b></ins>. I have <b>three brothers </b>, <ins>two of them are older and one is younger</ins>. I also have two nephews and a niece. </p>
+				</li>
+				<li>
+					<h4>My Family</h4>
+					<p class="my-p">Twenty-five years ago I married a <mark>wonderful woman</mark>, I have 3 sons, two of which have finished their professional careers, and one is still studying at the university.</p>
+				</li>
+				<li>
+					<h4>My Hobbies</h4>	
+					<p class="my-p">Among my <ins>hobbies</ins> is traveling, and thanks to my work I have had the opportunity to visit many cities in my country, among them the ones I have liked the most are:</p>
+					<!--unordered list, but manually set the numerals to use the tag "sup". -->
+					<ul>
+						<li id="hobby" >1<sup>st</sup> <ins>Toluca</ins></li>
+						<li id="hobby" >2<sup>nd</sup> <ins>Mexico City</ins></li>
+						<li id="hobby" >3<sup>rd</sup> <ins>Saltillo</ins></li>.
+					</ul>
+					<p class="my-p">I have also been able to travel with my wife and one of the trips we enjoyed the most was visiting the <mark><i>pyramids of Teotihuacan and Acapulco</i></mark>. As Mexicali is a border city, visiting the U.S. is something common, particularly going to <ins>Calexico</ins>, <ins>El Centro</ins>, <ins>Yuma</ins> and <ins>San Diego</ins>, however I have also been able to visit other cities in the U.S. a little further away, such as <b><i>Chicago</i></b>, <b><i>St. Louis Missouri</i></b> and <b><i>Seattle</i></b>.</p>
+				</li>
+			</ol>
+		</section>
+		
+		<!-- basic form  -->
+		<section id="Login">
+			<h3>Log in</h3>
+			<br>
+			<section class="form">
+				<label for="User">User: </label>
+				<input type="text" id="User" name="User" placeholder="User name" />
+				<br>
+				<label for="Password">Password: </label>
+				<input type="password" id="Password" name="Password" placeholder="Password" />
+				<br>
+				<label for="Comment">Comments: </label>
+				<br>
+				<textarea cols="50" rows="6" id="comentario" name="comentario" placeholder="Comentarios generales"></textarea>
+			</section> <!-- form-->
+		</section> <!-- login-->
+		<section id="Photos">
+			<!-- /*photo gallery that allows you to open a photo in a new browser tab -->
+			<h3>Photos</h3>
+			<br>
+			<table>
+				<caption>Seattle 2019<br><br></caption>
+				<tr>
+				  <td>
+					<a target="_blank" href="images/seattle01.jpg">
+					<img src="images/seattle01.jpg" height="300" alt="my picture" /></a>
+				  </td>
+				  <td>
+					<a target="_blank" href="images/seattle02.jpg">
+					<img src="images/seattle02.jpg" height="300" alt="my picture" /></a>
+				  </td>
+				  <td>
+					<a target="_blank" href="images/seattle03.jpg">
+					<img src="images/seattle03.jpg" height="300" alt="my picture" /></a>
+				  </td>
+				</tr>
+				<tr>
+					<td>
+						<a target="_blank" href="images/seattle04.jpg">
+					  <img src="images/seattle04.jpg" height="300" alt="my picture" /></a>
+					</td>
+					<td>
+						<a target="_blank" href="images/seattle05.jpg">
+					  <img src="images/seattle05.jpg" height="300" alt="my picture" /></a>
+					</td>
+					<td>
+						<a target="_blank" href="images/seattle06.jpg">
+					  <img src="images/seattle06.jpg" height="300" alt="my picture" /></a>
+					</td>
+				  </tr>
+				  <tr>
+					<td>
+						<a target="_blank" href="images/seattle07.jpg">
+					  <img src="images/seattle07.jpg" height="300" alt="my picture" /></a>
+					</td>
+					<td>
+						<a target="_blank" href="images/seattle08.jpg">
+					  <img src="images/seattle08.jpg" height="300" alt="my picture" /></a>
+					</td>
+					<td>
+						<a target="_blank" href="images/seattle09.jpg">
+					  <img src="images/seattle09.jpg" height="300" alt="my picture" /></a>
+					</td>
+				  </tr>
+			</table>
+
+		</section>
+	</main>
+
+	<footer>
+		<table>
+			<tr>
+			  <th>Contact</th>
+			  <th></th>
+			  <th>Links</th>
+			</tr>
+			<tr>
+			  <td>
+				<address>
+					Carlos Lopez<br>
+					<a class="link" href="mailto:carlosloslopez@itmexicali.edu.mx">carlosloslopez@itmexicali.edu.mx</a><br>
+					477 Benjamin Hill St<br>
+					Mexicali, B.C<br>
+					+52 686 5687806
+				</address>
+			  </td>
+		  	  <td></td>
+		  	  <td>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="#Home">Home</a></li>
+					<li class="list-inline-item"><a href="#Biography">Biography</a></li>
+					<li class="list-inline-item"><a href="#Login">Login</a></li>
+					<li class="list-inline-item"><a href="#Photos">Photos</a></li>
+				</ul>
+			</td>
+			</tr>
+		  </table>
+
+	</footer>
+</body>
+</html>

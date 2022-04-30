@@ -1,0 +1,119 @@
+
+/*this is a comment*/
+/* 
+this is a multiple
+lines comment
+*/
+header{
+    text-align: center;
+}
+header h1{
+    background-color: rgb(7, 69, 41, 0.6);
+    color: rgb(111, 68, 12);
+  /*  font-family: Impact;
+    font-weight: lighter;*/
+    font: lighter "Impact";
+    text-shadow: 2px 2px white;
+    letter-spacing: 15px;
+
+    }
+header h2{ 
+    font: italic bold "Helvetica";
+    color: rgb(236, 226, 226);   
+    text-shadow: 2px 2px rgb(24, 25, 21);
+    }
+
+img{ 
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 50%;
+}
+body{
+    color: rgb(236, 226, 226); 
+    /* https://www.pexels.com free picture */
+    background-image: url("images/fondo.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+h3,h4{
+    color: rgb(189, 232, 176);
+    border-bottom: 1px solid rgb(30, 57, 58); 
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: double;
+    text-shadow: 2px 2px rgb(24, 25, 21);
+    }
+
+mark{
+    text-shadow: none;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 16; 
+    line-height: 1.5;
+    text-shadow: 2px 2px rgb(24, 25, 21);
+}
+.my-p{
+    font-size:17px;
+    color: #f4f0f0; 
+    font-family: Arial;
+}
+#hobby{
+    color: #eeff00fb;
+    }
+
+.form{
+	background-color: rgb(35, 42, 20, 80%);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 1px;
+    width: 40%;
+    margin-left: auto;
+
+    }
+
+.container{
+    background-color: rgba(24, 212, 229, 0.4);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 10px 20px;
+    }
+
+footer{
+  background-color: hsla(150, 29%, 93%, 0.784);
+  color: rgb(111, 68, 12);
+    font: lighter "Impact";
+    }
+
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+link{
+    text-decoration: underline;
+    text-shadow: none;
+    }
+
+th{
+    text-transform: uppercase;
+    text-decoration: double;
+    background-color: olive;
+    color: #f4f0f0;
+    text-align: center;
+
+}
+
+
+
+
+  
+  
+
+
